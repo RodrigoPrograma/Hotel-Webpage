@@ -5,18 +5,22 @@ import BurguerButton from "./Burguerbutton";
 
 
 
-export const Nav = () => {
+function Nav () {
 
     const [clicked, setClicked] = useState(false)
+    
+    const handleClick = () => {
+        setClicked(!clicked)
+    }
+    console.log(clicked)
+
     return (
         <>
             <div className="Navbar">
                 <div className="navbarContainer">
                     <div className="navImgContainer"><img className="Navbar-img" src="/src/assets/logo2.png" alt="" />
                     </div>
-                        <BurguerButton />
-                    <div className={"link-container ${clicked ? 'active' : ''}"}>  
-                        <ul className="un-list active">
+                    <div className={"link-container ${clicked ? '' : 'active'}"}>  
                             <li className="list-link"><a className="Link" href="">Menu</a>
                             </li>
                             <li className="list-link"><a className="Link" href="">Servicios</a>
@@ -27,8 +31,8 @@ export const Nav = () => {
                             </li>
                             <li className="list-link"><a className="Link" href="">Contacto</a>
                             </li>
-                        </ul>
                     </div>
+                        <BurguerButton clicked = {clicked} handleClick ={handleClick}/>
                 </div>
                 <div className="paragraphContainer">
                     <p className="navParagraph">Abre la puerta para una vida espaciosa</p>
@@ -38,3 +42,5 @@ export const Nav = () => {
     );
 
 };
+
+export default Nav
