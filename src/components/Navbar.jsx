@@ -3,6 +3,7 @@ import React from "react";
 import "../Styles/Navbar.css"
 import BurguerButton from "./Burguerbutton";
 import styled from "styled-components";
+import VientosDelSur from "../assets/imagenes/VientosDelSur.jpg"
 
 
 
@@ -19,7 +20,7 @@ function Nav () {
         <>
             <div className="Navbar">
                 <div className="navbarContainer">
-                    <div className="navImgContainer"><img className="Navbar-img" src="/src/assets/logo2.png" alt="" />
+                    <div className="navImgContainer"><img className="Navbar-img" src={VientosDelSur} alt="" />
                     </div>
                     <div className={`link-container ${clicked ? 'active' : ''}`}>  
                             <li onClick ={handleClick} className="list-link"><a className="Link" href="#">Menu</a>

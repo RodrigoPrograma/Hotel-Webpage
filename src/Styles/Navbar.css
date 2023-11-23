@@ -5,7 +5,7 @@
 .navbarContainer { 
     display: flex;
     width: 100%;
-    justify-content: end;
+    justify-content: space-around;
     padding: 25px 0 80px 0;
     background-image: url(../assets/banner.jpg);
     background-size: cover;
@@ -79,7 +79,7 @@ align-items: center;
 @media (max-width:750px) {
     
     .Navbar-img{
-        max-width: 100%;
+        max-width: 50%;
         margin-left: 10px;
     }
     .paragraphContainer{
