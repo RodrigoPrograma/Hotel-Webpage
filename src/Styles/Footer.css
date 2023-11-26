@@ -1,0 +1,54 @@
+.footerContainer{
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+}
+
+.get{
+  color: #00ABF3;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+.listHeader{
+  margin-bottom: 5px;
+
+}
+
+.footerParagraph{
+    width: 80%;
+    margin: auto;
+    font-size: 10px;
+    color: #565656;
+}
+
+.listOflinks{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.listItem{
+  color:#565656;
+  padding-bottom: 4px;
+  font-weight: 100;
+  word-spacing: 2px;
+  font-size: 13px;
+}
+
+.separator{
+  height: 1px;
+  width: 80%;
+  background-color: rgb(138, 136, 136);
+  border: none;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+}
+.la-youtube{
+  margin: 0 5px;
+}
+.icon{
+  color: #00ABF3;
+}
