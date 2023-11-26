@@ -1,0 +1,15 @@
+.tituloContainer{
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo{
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  gap:1rem
+}
+.resaltado{
+  color: #00ABF3;
+}

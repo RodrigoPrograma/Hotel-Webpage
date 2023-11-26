@@ -1,0 +1,21 @@
+.contenedorIconosServicios{
+  height: 20vh;
+  margin: 3rem;
+  display:flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.iconoServicio{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.iconoServicio svg path{
+  width: 2rem;
+}
+
+.icono {
+  color: #00ABF3;
+}
