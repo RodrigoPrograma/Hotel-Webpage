@@ -1,0 +1,8 @@
+.parrafoContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.parrafo{
+  width: 50vw;
+}

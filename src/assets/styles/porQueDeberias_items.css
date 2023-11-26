@@ -1,0 +1,30 @@
+.itemsContenedor{
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.itemContenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 50vw;
+}
+
+.numero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00ABF3;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+.item_parrafo{
+  text-align: start;
+  margin: 1rem 0;
+  
+}

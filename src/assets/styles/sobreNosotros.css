@@ -1,0 +1,21 @@
+.sobreNosotros_container{
+  display: flex;
+  background-color: #00ABF3;
+  height: 100vh;
+}
+
+.sobreNosotros_texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  width: 50%;
+  padding: 2rem;
+}
+
+.sobreNosotros_img{
+  width: 50%;
+  background-image: url(../img/room4.jpg);
+  background-size: cover;
+  background-position: center;
+}
