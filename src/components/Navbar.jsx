@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from "react";
-import "../Styles/Navbar.css"
+import "../assets/styles/Navbar.css"
 import BurguerButton from "./Burguerbutton";
 import styled from "styled-components";
 import VientosDelSur from "../assets/imagenes/VientosDelSur.jpg"
