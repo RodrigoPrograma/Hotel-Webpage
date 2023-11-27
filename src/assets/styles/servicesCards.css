@@ -2,8 +2,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap:3rem;
+  margin:3rem 0;
 }
 
 .card{
   width: 50%;
+  box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+  border-radius: 7px;
+  padding: 1rem 0;
+}
+
+@media (max-width:768px) {
+    .card{
+      width: 87%;
+    }
 }

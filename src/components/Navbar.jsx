@@ -25,11 +25,11 @@ function Nav () {
                     <div className={`link-container ${clicked ? 'active' : ''}`}>  
                             <li onClick ={handleClick} className="list-link"><a className="Link" href="#">Menu</a>
                             </li>
-                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#">Servicios</a>
+                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#servicios">Servicios</a>
                             </li>
-                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#">Nosotros</a>
+                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#sobreNosotros">Nosotros</a>
                             </li>
-                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#">Habitaciones</a>
+                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#habitaciones">Habitaciones</a>
                             </li>
                             <li onClick ={handleClick} className="list-link"><a className="Link" href="#">Contacto</a>
                             </li>

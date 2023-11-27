@@ -6,3 +6,17 @@
 .parrafo{
   width: 50vw;
 }
+
+.vientos{
+  font-weight: 900;
+}
+
+@media (max-width:750px) {
+  .parrafoContainer{
+    margin-bottom:-1rem;
+  }
+  .parrafo{
+    width: initial;
+  }
+  
+}

@@ -3,7 +3,7 @@ import '../assets/styles/sobreNosotros.css'
 
 export default function SobreNosotros() {
   return (
-    <div className='sobreNosotros_container'>
+    <div className='sobreNosotros_container' id='sobreNosotros'>
 
       <div className="sobreNosotros_texto">
         <h2 className='sobreNosotros_titulo'>Sobre Nosotros</h2>

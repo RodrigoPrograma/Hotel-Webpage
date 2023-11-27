@@ -1,5 +1,5 @@
 .itemsContenedor{
-  margin: 5rem 0;
+  margin: 7rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,4 +27,15 @@
   text-align: start;
   margin: 1rem 0;
   
+}
+
+@media (max-width:768px) {
+  .itemContenedor{
+    width: 82vw;
+  align-items: center;
+  }
+  .item_parrafo{
+    text-align: center;
+    
+  }
 }

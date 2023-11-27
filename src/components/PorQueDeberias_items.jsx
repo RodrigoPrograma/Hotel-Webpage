@@ -14,9 +14,9 @@ export default function PorQueDeberias_items() {
 
       <div className="itemContenedor">
         <div className='numero'>2</div>
-        <h2 className='item_titulo'>Buenos precios y mejor calidad</h2>
+        <h2 className='item_titulo'>Vistas increibles</h2>
         <p className='item_parrafo'>
-          Ofrecemos la combinación perfecta entre un precio accesible y una calidad excepcional, brindándote la mejor relación costo-beneficio en cada experiencia.
+          Ofrecemos un espectaculo visual natural en cada rincon del hotel, que dara a su estadia un encanto inigualable de principio a fin.
         </p>
       </div>
 

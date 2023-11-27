@@ -1,5 +1,6 @@
 .imagenContainer{
-  height: 50vw;
+  margin: 18rem 0;
+  height: 100%;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -26,3 +27,28 @@
   border: .3rem solid #00ABF3;
   border-radius: .3rem;
 }
+
+@media (max-width: 768px) {
+
+  .imagenContainer{
+    margin: 3rem 0;
+  }
+
+  .imagen2{
+    position: static;
+    height: 18rem;
+    width: 80%;
+    left: 10vw;
+    margin-top: 0;
+  }
+
+  .imagen1{
+    position: absolute;
+    top: 477vw;
+    height: 19%;
+    width: 40vw;
+    left: 53vw;
+    background-size: cover;
+    background-position: center;
+  }
+}       

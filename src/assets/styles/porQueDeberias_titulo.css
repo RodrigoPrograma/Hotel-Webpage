@@ -13,3 +13,15 @@
 .resaltado{
   color: #00ABF3;
 }
+
+@media (max-width: 768px) {
+  .titulo{
+    gap: 0;
+    font-size: 2rem;
+    flex-direction: column;
+    margin: 0;
+  }
+  .tituloContainer{
+    height: 100%;
+  }
+}

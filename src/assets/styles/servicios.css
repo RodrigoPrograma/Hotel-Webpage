@@ -19,3 +19,13 @@
 .icono {
   color: #00ABF3;
 }
+
+@media (max-width: 750px) {
+  .contenedorIconosServicios{
+    height: initial;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+}
