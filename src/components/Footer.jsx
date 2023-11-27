@@ -8,7 +8,7 @@ export const Footer = () => {
         <h5 className='get'>get in touch</h5>
         <p className='footerParagraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit.  enim, molestias expedita eligendi.</p>
       </div>
-      <div className='fotterlist'>
+      <div className='footerlist'>
         <ul className='listOflinks'>
           <h4 className='listHeader'>Navegacion</h4>
           <a className='listItem' href="#">Home</a>

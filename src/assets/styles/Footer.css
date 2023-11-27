@@ -52,3 +52,14 @@
 .icon{
   color: #00ABF3;
 }
+
+@media (min-width:750px) {
+  .footerlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .social{
+    align-items: center;
+  }
+}
