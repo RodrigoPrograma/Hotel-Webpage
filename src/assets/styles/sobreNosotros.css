@@ -1,7 +1,6 @@
 .sobreNosotros_container{
   display: flex;
   background-color: #00ABF3;
-  flex-direction: column;
   height: 100vh;
 }
 
@@ -24,15 +23,23 @@
 @media (max-width:768px) {
   .sobreNosotros_img{
     width: 100%;
-    height: 43%;
+    height: 45%;
     position: absolute;
-    top: 217rem;
+    top: 221rem;
     background-image: url(../img/room4.jpg);
     background-size: cover;
     background-position: center;
   }
   
   .sobreNosotros_container{
+    flex-direction: column;
    align-items: center;
   }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+  .sobreNosotros_parrafo{
+    font-size: 25px;
+  }
+
 }

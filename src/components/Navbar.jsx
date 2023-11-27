@@ -31,13 +31,13 @@ function Nav () {
                             </li>
                             <li onClick ={handleClick} className="list-link"><a className="Link" href="#habitaciones">Habitaciones</a>
                             </li>
-                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#">Contacto</a>
+                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#form">Contacto</a>
                             </li>
                     </div>
                         <BurguerButton clicked = {clicked} handleClick ={handleClick}/>
                 </div>
                 <div className="paragraphContainer">
-                    <p className="navParagraph">Abre la puerta para una vida espaciosa</p>
+                    <p className="navParagraph">Vientos del Sur Resort, donde el confort se encuentra con las profundidades</p>
                     
                 </div>
             </div>

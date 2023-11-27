@@ -6,6 +6,7 @@ import PorQueDeberias from './components/PorQueDeberias.jsx'
 import SobreNosotros from './components/SobreNosotros.jsx'
 import ServicesCards from './components/ServicesCards.jsx'
 import { Footer } from './components/Footer.jsx'
+import { Form } from './components/Form.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <PorQueDeberias />
       <SobreNosotros />
       <ServicesCards />
+      <Form />
       <Footer />
     </>
   )

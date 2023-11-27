@@ -12,9 +12,9 @@ export const Footer = () => {
         <ul className='listOflinks'>
           <h4 className='listHeader'>Navegacion</h4>
           <a className='listItem' href="#">Home</a>
-          <a className='listItem' href="#">Servicios</a>
-          <a className='listItem' href="#">Nosotros</a>
-          <a className='listItem' href="#">Contacto</a>
+          <a className='listItem' href="#servicios">Servicios</a>
+          <a className='listItem' href="#sobreNosotros">Nosotros</a>
+          <a className='listItem' href="#form">Contacto</a>
         </ul>
         <ul className='listOflinks'>
           <h4 className='listHeader'>Informacion util</h4>

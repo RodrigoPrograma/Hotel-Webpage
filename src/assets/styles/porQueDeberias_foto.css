@@ -28,7 +28,7 @@
   border-radius: .3rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
 
   .imagenContainer{
     margin: 3rem 0;
@@ -50,5 +50,11 @@
     left: 53vw;
     background-size: cover;
     background-position: center;
+  } 
+} 
+@media (min-width:760px) and (max-width:969px) {
+
+    .imagen2{
+      margin-right: 4rem;
+    }
   }
-}       

@@ -1,0 +1,31 @@
+
+.formulario{
+  margin: 1rem 2rem;
+  background-color: #00ABF3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  height: 115vw;
+}
+.Nombre,.Email,.Comentario{
+  margin: 4px 1px;
+  display: flex;
+  flex-direction: column;
+}
+.labelCampo{
+
+  margin: 0 3px;
+}
+.formButton{
+  margin-top: 5px;
+}
+
+
+@media (min-width:768px) {
+  .formulario{
+    height: 45vw;
+    margin: 1rem 6rem;
+    justify-content: center;
+  }
+}
