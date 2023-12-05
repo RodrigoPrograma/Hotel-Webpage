@@ -5,7 +5,7 @@ export default function ServicesCards() {
   return (
     <div className='serviceCards_container' id='servicios'>
 
-      <div className="card">
+      <div className="card initialCard">
         <div className="card_Icono">
           <svg
             viewBox="0 0 512 512"

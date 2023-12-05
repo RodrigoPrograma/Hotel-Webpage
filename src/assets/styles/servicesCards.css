@@ -19,4 +19,7 @@
     .card{
       width: 87%;
     }
+    .initialCard{
+      margin-top: 90px;
+    }
 }
