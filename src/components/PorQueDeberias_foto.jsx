@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/PorQueDeberias_foto.css'
+import '../../src/assets/styles/PorQueDeberias_foto.css'
 
 export default function PorQueDeberias_foto() {
   return (
