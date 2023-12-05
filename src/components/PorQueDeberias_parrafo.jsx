@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../src/assets/styles/PorQueDeberias_parrafo.css'
+import '../../src/assets/styles/porQueDeberias_parrafo.css'
 
 export default function PorQueDeberias_parrafo() {
   return (
