@@ -23,15 +23,15 @@ function Nav () {
                     <div className="navImgContainer"><img className="Navbar-img" src={VientosDelSur} alt="" />
                     </div>
                     <div className={`link-container ${clicked ? 'active' : ''}`}>  
-                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#">Menu</a>
+                            <li className="list-link"><a className="Link" href="#">Menu</a>
                             </li>
-                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#servicios">Servicios</a>
+                            <li className="list-link"><a className="Link" href="#servicios">Servicios</a>
                             </li>
-                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#sobreNosotros">Nosotros</a>
+                            <li className="list-link"><a className="Link" href="#sobreNosotros">Nosotros</a>
                             </li>
-                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#habitaciones">Habitaciones</a>
+                            <li className="list-link"><a className="Link" href="#habitaciones">Habitaciones</a>
                             </li>
-                            <li onClick ={handleClick} className="list-link"><a className="Link" href="#form">Contacto</a>
+                            <li className="list-link"><a className="Link" href="#form">Contacto</a>
                             </li>
                     </div>
                         <BurguerButton clicked = {clicked} handleClick ={handleClick}/>
@@ -45,7 +45,7 @@ function Nav () {
         </>
     );
 
-};
+}
 
 export default Nav
 
