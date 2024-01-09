@@ -1,3 +1,4 @@
+//eslint-disable-next-line
 import react from 'react';
 import '../assets/styles/Form.css'
 
@@ -7,7 +8,7 @@ export const Form = () => {
 
     <div className='formContainer' id='form'>
       <form action="post" className='formulario'>
-      <h3>CONTACTO</h3>
+      <h2>CONTACTO</h2>
       <p className='formParagraph'>Envianos un mensaje y nos pondremos en contacto a la brevedad</p>
         <div className="Nombre">
         <label className='labelCampo' htmlFor="nombre">Nombre</label>
@@ -16,6 +17,10 @@ export const Form = () => {
         <div className="Email">
         <label className='labelCampo' htmlFor="Email">Email</label>
         <input type="email" name="email" id="email" />
+        </div>
+        <div className="Numero">
+        <label className='labelCampo' htmlFor="Numero">Telefono</label>
+        <input type="tel" name="number" id="number" />
         </div>
         <div className="Comentario">
         <label className='labelCampo' htmlFor="comentario">Comentario</label>

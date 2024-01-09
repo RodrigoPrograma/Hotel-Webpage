@@ -1,14 +1,15 @@
 
 .formulario{
-  margin: 1rem 2rem;
-  background-color: #00ABF3;
+  margin: 1rem 13rem;background: #373b44;
+  background: -webkit-linear-gradient(45deg, #234885, #00ABF3);
+  background: linear-gradient(45deg, #264981, #00ABF3);
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 7px;
-  height: 115vw;
+  height: 37vw;
 }
-.Nombre,.Email,.Comentario{
+.Nombre,.Email,.Comentario,.Numero{
   margin: 4px 1px;
   display: flex;
   flex-direction: column;
@@ -21,7 +22,7 @@
   margin-top: 5px;
 }
 
-
+/*
 @media (min-width:768px) {
   .formulario{
     height: 45vw;
@@ -29,3 +30,4 @@
     justify-content: center;
   }
 }
+*/
