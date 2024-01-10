@@ -8,6 +8,7 @@
   align-items: center;
   border-radius: 7px;
   height: 37vw;
+  padding: 15px;
 }
 .Nombre,.Email,.Comentario,.Numero{
   margin: 4px 1px;
@@ -22,12 +23,17 @@
   margin-top: 5px;
 }
 
-/*
-@media (min-width:768px) {
+
+@media (max-width:768px) {
   .formulario{
-    height: 45vw;
-    margin: 1rem 6rem;
+    height: 136vw;
+    margin: 0;
     justify-content: center;
   }
+  .formParagraph{
+    margin: 4px 10px;
+  }
+  .get{
+    font-size: 20px;
+  }
 }
-*/
